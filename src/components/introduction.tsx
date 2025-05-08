@@ -9,7 +9,7 @@ const Introduction = () => {
                 <Image src="/Elemento-Banner.png" priority width="600" height="600" alt="Avatar" />
                 </div>
                 <div className="flex flex-col justify-center max-w-md">
-                    <h1 className="mb-5 text-2xl leading-tight text-center font-bold md:text-left md:text-xl md:mb-10">SANDBOX, <br />
+                    <h1 className="mb-5 text-2xl leading-tight text-center font-bold md:text-left md:text-5xl md:mb-10">SANDBOX, <br />
                         <TypeAnimation
                             sequence={[
                                 'Regulatorio',
