@@ -6,7 +6,7 @@ import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 import { CoverParticles } from "@/components/cover-particles";
 
-const AboutMePage = () => {
+const PreguntaFrecuentes = () => {
     return (
         <>
         <CoverParticles />
@@ -29,4 +29,4 @@ const AboutMePage = () => {
     );
 }
 
-export default AboutMePage;
+export default PreguntaFrecuentes;

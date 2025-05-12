@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, BookOpenCheck } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -35,6 +35,7 @@ export const itemsNavbar = [
         title: "Inicio",
         icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
         link: "/",
+        
     },
     {
         id: 2,
@@ -63,7 +64,7 @@ export const itemsNavbar = [
     {
         id: 6,
         title: "Recaudos",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+        icon: <BookOpenCheck size={25} color="#fff" strokeWidth={1} />,
         link: "/recaudos",
     },
 ];
@@ -108,7 +109,7 @@ export const dataAboutPage = [
         id: 6,
         title: "¿Cuáles son las fases del ambiente de pruebas?",
         subtitle: "--------",
-        description: "Ir a la pagina de Fases <h1>Hola</h1>",
+        description: "Ir a la pagina de Fases",
         date: "6",
     },
 ]
