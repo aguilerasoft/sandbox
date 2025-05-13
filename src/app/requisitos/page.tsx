@@ -4,6 +4,7 @@ import { CoverParticles } from "@/components/cover-particles";
 import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import { useState, useEffect } from "react";
+import Image from 'next/image';
 
 export default function Requisitos() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -94,7 +95,7 @@ export default function Requisitos() {
               {/* Círculo con imagen - centrado */}
               <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isMobile ? 'w-40 h-40' : 'w-72 h-72'} group z-20`}>
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl transition-all duration-300 group-hover:border-indigo-600 group-hover:shadow-2xl">
-                  <img
+                  <Image
                     src="/Icono-Circulo-Sandbox.png"
                     alt="Perfil"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -112,7 +113,7 @@ export default function Requisitos() {
                       className={`relative w-full md:w-72 bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border border-gray-700 shadow-lg transition-all duration-500 hover:bg-white/20 hover:shadow-xl z-10 hover:scale-105 mb-4 mx-auto`}
                     >
                       <div className="mb-3 md:mb-5 flex justify-center items-center">
-                        <img src={section.icon} alt="" width={isMobile ? 60 : 100} height={isMobile ? 60 : 100}/>
+                        <Image src={section.icon} alt="" width={isMobile ? 60 : 100} height={isMobile ? 60 : 100}/>
                       </div>
                       <div className="text-gray-300 text-sm leading-relaxed">
                         {section.isLong ? (
@@ -152,7 +153,7 @@ export default function Requisitos() {
                       }}
                     >
                       <div className="mb-5 flex justify-center items-center">
-                        <img src={section.icon} alt="" width={100} height={100}/>
+                        <Image src={section.icon} alt="" width={100} height={100}/>
                       </div>
                       <div className="text-gray-300 text-sm leading-relaxed">
                         {section.isLong ? (

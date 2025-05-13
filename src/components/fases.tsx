@@ -1,5 +1,6 @@
-import { img } from 'framer-motion/client';
+
 import React from 'react';
+import Image from 'next/image';
 
 interface FasesComponenteProps {
   title: string;
@@ -57,7 +58,7 @@ const FasesComponente: React.FC<FasesComponenteProps> = ({
           >
             <div className="animate-spin-slow">
               
-                <img
+                <Image
                 src={icon}
                 alt="Perfil"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

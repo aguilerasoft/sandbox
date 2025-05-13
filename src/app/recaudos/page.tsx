@@ -1,6 +1,5 @@
 "use client"
 
-import { Avatar } from "@/components/avatar";
 import ContainerPage from "@/components/container-page";
 import RecaudosComponente from "@/components/recaudos";
 import TransitionPage from "@/components/transition-page";

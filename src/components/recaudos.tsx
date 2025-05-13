@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 interface RecaudosComponenteProps {
   image?: string;
@@ -39,7 +40,7 @@ const RecaudosComponente: React.FC<RecaudosComponenteProps> = ({
             {/* Imagen a la izquierda */}
             {image && (
               <div className="flex justify-center items-center ml-5">
-              <img
+              <Image
                 src={image}
                 alt="Contenido visual"
                 className=""
@@ -76,7 +77,7 @@ const RecaudosComponente: React.FC<RecaudosComponenteProps> = ({
             >
               <div className="animate-spin-slow">
                             
-                              <img
+                              <Image
                               src={icon}
                               alt="Perfil"
                               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
