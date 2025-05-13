@@ -39,7 +39,7 @@ const RecaudosComponente: React.FC<RecaudosComponenteProps> = ({
           <div className="flex flex-col md:flex-row items-stretch">
             {/* Imagen a la izquierda */}
             {image && (
-              <div className="flex justify-center items-center ml-5">
+              <div className="flex justify-center items-center ml-5 mt-5 md:mt-0">
               <Image
                 src={image}
                 alt="Contenido visual"

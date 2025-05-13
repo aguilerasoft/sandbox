@@ -93,12 +93,14 @@ export default function Requisitos() {
             {/* Contenedor para el círculo y las secciones */}
             <div className="relative w-full h-full max-w-5xl max-h-5xl">
               {/* Círculo con imagen - centrado */}
-              <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isMobile ? 'w-40 h-40' : 'w-72 h-72'} group z-20`}>
+              <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isMobile ? 'w-40 h-40 hidden' : 'w-72 h-72'} group z-20`}>
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl transition-all duration-300 group-hover:border-indigo-600 group-hover:shadow-2xl">
                   <Image
                     src="/Icono-Circulo-Sandbox.png"
                     alt="Perfil"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 "
+                    width={300}
+                    height={300}
                   />
                 </div>
               </div>
@@ -180,7 +182,7 @@ export default function Requisitos() {
             </div>
           </div>
         </div>
-        <div className="h-50"></div>
+        <div className="h-dvh md:h-50"></div>
       </ContainerPage>
 
       {/* Modal */}
