@@ -46,14 +46,14 @@ export default function Requisitos() {
       id: 3,
       title: "3",
       icon: "/Icono-Circulo-3.png",
-      content: "Los proyectos tecnológicos deberán aportar, a criterio de esta Superintendencia de la Actividad Aseguradora, potencial utilidad o valor agregado en al menos uno de los siguientes aspectos:<br /><br /> • Beneficiar a los Tomadores, Asegurados, Beneficiarios, Contratantes, Usuarios y Afiliados de la actividad aseguradora, en términos de mejora, accesibilidad, incentivo a la competencia, disponibilidad de los productos o servicios ofrecidos, disminución de las primas, cuotas, gastos administrativos o incremento en la protección de los derechos de los Tomadores, Asegurados, Beneficiarios, Contratantes, Usuarios y Afiliados.<br /><br /> • Facilitar el cumplimiento de las normativas vigentes en materia de la actividad aseguradora.<br /><br /> • Proveer métodos o mecanismos para mejorar la regulación del mercado asegurador.<br /><br /> • Aumentar la eficiencia del mercado de la actividad aseguradora.",
+      content: "El proyecto debe aportar, a criterio de esta Superintendencia de la Actividad Aseguradora, potencial utilidad o valor agregado en al menos uno de los siguientes aspectos: <br><br> • Beneficiar a los Tomadores, Asegurados, Beneficiarios, Contratantes, Usuarios y Afiliados de la actividad aseguradora, en términos de mejora, accesibilidad, incentivo a la competencia, disponibilidad de los productos o servicios ofrecidos, disminución de las primas, cuotas, gastos administrativos o incremento en la protección de los derechos de los Tomadores, Asegurados, Beneficiarios, Contratantes, Usuarios y Afiliados. <br> <br> • Facilitar el cumplimiento de las normativas vigentes en materia de la actividad aseguradora. <br> <br> • Proveer métodos o mecanismos para mejorar la regulación del mercado asegurador. <br> <br> • Aumentar la eficiencia del mercado de la actividad aseguradora.",
       isLong: true
     },
     {
       id: 4,
       title: "4",
       icon: "/Icono-Circulo-4.png",
-      content: "Si el solicitante no es un sujeto regulado deberá remitir los siguientes documentos:<br /><br /> • Documentación que verifique el cumplimiento de las normas en materia de administración de riesgos de legitimación de capitales.<br /><br /> • Documentación sobre financiamiento al terrorismo y financiamiento a la proliferación de armas de destrucción masiva que le sean aplicables.<br /><br /> • En caso de no poseerlos, deberá remitir un plan estratégico para el cumplimiento de las mencionadas normas.",
+      content: "Si el solicitante no es un sujeto regulado deberá remitir los documentos donde se pueda verificar el cumplimiento de las de las normas en materia de administración de riesgos de legitimación de capitales, financiamiento al terrorismo y financiamiento a la proliferación de armas de destrucción masiva que le sean aplicables. En caso de no poseerlos, deberá remitir un plan estratégico para el cumplimiento de las mencionadas normas.",
       isLong: true
     },
     {
@@ -96,7 +96,7 @@ export default function Requisitos() {
               <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isMobile ? 'w-40 h-40 hidden' : 'w-72 h-72'} group z-20`}>
                 <div className="w-full h-full rounded-full overflow-hidden border-4 border-indigo-500 shadow-xl transition-all duration-300 group-hover:border-indigo-600 group-hover:shadow-2xl">
                   <Image
-                    src="/Icono-Circulo-Sandbox.png"
+                    src="/ISOTIPO SANDBOX.png"
                     alt="Perfil"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 "
                     width={300}
@@ -182,7 +182,7 @@ export default function Requisitos() {
             </div>
           </div>
         </div>
-        <div className="h-dvh md:h-50"></div>
+        <div className="h-dvh md:h-80"></div>
       </ContainerPage>
 
       {/* Modal */}

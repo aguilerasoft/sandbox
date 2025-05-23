@@ -1,6 +1,5 @@
 "use client"
 
-import { Avatar } from "@/components/avatar";
 import ContainerPage from "@/components/container-page";
 import FasesComponente from "@/components/fases";
 import TransitionPage from "@/components/transition-page";
@@ -12,33 +11,39 @@ const Fases = () => {
       <CoverParticles />
       <TransitionPage />
       <ContainerPage>
-        <Avatar />
+       
 
-
-        <FasesComponente
-          title="Prueba"
-          icon="/Icono-Prueba.png"
-          content="El proyecto tecnológico ha ingresado al Sandbox Regulatorio Sudeaseg y es probado por este Órgano de Control bajos criterios previamente establecidos."
-        />
-        <FasesComponente
+         <FasesComponente
 
           icon="/Icono-Presentacion-de-la-solicitud.png"
-          title="Presentación de la Solicitud"
-          gradientFrom="#8ed8f9"
-          gradientTo="#8ed8f9"
-          content="Es el periodo para la presentación de los proyectos tecnológicos, en el cual estarán definidos los requisitos y recaudos que debe presentar el interesado."
+          title="Presentación de la solicitud"
+          gradientFrom="#09141a"
+          gradientTo="#2584C8"
+          content="es el periodo para la presentación de los proyectos tecnológicos, en el cual estarán definidos los requisitos y recaudos que debe presentar el interesado."
         />
-        <FasesComponente
+
+         <FasesComponente
           icon="/Icono-Evaluacion-de-la-Solicitud.png"
-          title="Evaluación de la Solicitud"
+          title="Evaluación de la solicitud"
+          gradientFrom="#09141a"
+          gradientTo="#BFE4F5"
           content="Luego de ser recibida la documentación, la Superintendencia de la Actividad Aseguradora, a través del Comité de Evaluación de Proyectos Tecnológicos (CEPTEC), evaluará la solicitud y decidirá la admisión o no del proyecto."
         />
         <FasesComponente
+          title="Prueba"
+          gradientFrom="#2584C8"
+          gradientTo="#37BCDB"
+          icon="/Icono-Prueba.png"
+          content="El proyecto tecnológico ha sido admitido e implementado en el Sandbox Regulatorio para realizar pruebas previamente establecidas en el protocolo de pruebas."
+        />
+       
+       
+        <FasesComponente
           icon="/Icono-Salida.png"
           title="Salida"
-          gradientFrom="#8ed8f9"
-          gradientTo="#8ed8f9"
-          content="La Sudeaseg emitirá su pronunciamiento sobre el resultado de las pruebas, aprobando o desestimando el proyecto tecnológico."
+          gradientFrom="#262857"
+          gradientTo="#2584C8"
+          content="La Sudeaseg emite su pronunciamiento sobre el resultado de la prueba, aprobando o desestimando el proyecto tecnológico."
         />
 
         <div className="mb-20"></div>

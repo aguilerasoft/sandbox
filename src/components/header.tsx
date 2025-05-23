@@ -1,6 +1,6 @@
 "use client"
 
-import { socialNetworks } from "@/data";
+import { socialNetworksimg } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import { MotionTransition } from "./transition-component";
@@ -17,17 +17,18 @@ const Header = () => {
 
                     </Link>
                     <div className="flex items-center justify-center gap-7">
-                        {socialNetworks.map(({ logo, src, id }) => (
+                        {socialNetworksimg.map(({ imgSrc, src, id, alt }) => (
                             <Link
                                 key={id}
                                 href={src}
                                 target="_blank"
                                 className="transition-all duration-300 hover:text-secondary"
                             >
-                                {logo}
+                                <img src={imgSrc} alt={alt || "social logo"} className="h-11 w-11 object-contain"/>
                             </Link>
                         ))}
                     </div>
+
                 </div>
             </header>
         </MotionTransition>

@@ -24,11 +24,12 @@ export default function Home() {
                   height={200}
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
+                
               </div>
               <div className="order-2 md:order-2">
-                <h2 className="text-3xl font-bold mb-6">¿Qué es el Ambiente  de Prueba <br /> Sudeaseg o Sandbox Regulatorio?</h2>
+                <h2 className="text-3xl font-bold mb-6">¿Qué es el Ambiente de Prueba <br /> Sudeaseg o SandBox Regulatorio?</h2>
                 <p className="text-lg leading-relaxed">
-                Es un mecanismo exploratorio de regulación flexible que permite a las personas naturales y jurídicas probar productos, servicios, métodos de organización y modelos de negocio innovadores, con incidencia en la actividad aseguradora, en un espacio controlado y periodo temporal, sin incurrir inmediatamente en todas las consecuencias jurídicas propias de participar en dicha actividad.
+                Mecanismo exploratorio de regulación flexible que permite a las personas naturales y jurídicas probar productos, servicios, métodos de organización y modelos de negocio innovadores, con incidencia en la actividad aseguradora, en un espacio controlado y periodo temporal, sin incurrir inmediatamente en todas las consecuencias jurídicas propias de participar en dicha actividad.
                 </p>
               </div>
             </section>

@@ -1,31 +1,33 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, BookOpenCheck } from "lucide-react";
 
-export const socialNetworks = [
-    {
-        id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+
+
+export const socialNetworksimg = [
+  {
+    id: 1,
+    src: "https://twitter.com/yourprofile",
+    imgSrc: "/Facebook.png",
+    alt: "Facebook"
+  },
+  {
+    id: 2,
+    src: "https://facebook.com/yourprofile",
+    imgSrc: "/Youtube.png",
+    alt: "Youtube"
+  },
+  {
+    id: 3,
+    src: "https://facebook.com/yourprofile",
+    imgSrc: "/Instagram.png",
+    alt: "Instagram"
+  },
+  {
+    id: 4,
+    src: "https://facebook.com/yourprofile",
+    imgSrc: "/Tiktok.png",
+    alt: "Tiktok"
+  },
+  // more items...
 ];
 
 
@@ -39,7 +41,7 @@ export const itemsNavbar = [
     },
     {
         id: 2,
-        title: "Quienes Somos",
+        title: "Quiénes somos",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/quienes-somos",
     },
@@ -74,42 +76,42 @@ export const dataAboutPage = [
         id: 1,
         title: "¿Cuál es la tasa por servicio que debe pagarse para ingresar?",
         subtitle: "--------",
-        description: "La presentación de proyectos tecnológicos en el Sandbox Regulatorio no genera ningún pago de tasa administrativa por servicio.",
+        description: "La presentación de proyectos en el SandBox Regulatorio no genera ningún pago de tasa administrativa por servicio.",
         date: "1",
     },
     {
         id: 2,
-        title: "¿Quién puede solicitar el ingreso al Sandbox Regulatorio?",
+        title: "¿Quién puede solicitar el ingreso al SandBox Regulatorio?",
         subtitle: "--------",
-        description: "Cualquier persona natural o jurídica que, de forma individual o conjunta con otras, solicite el ingreso de un proyecto tecnológico propio en materia de la actividad aseguradora.",
+        description: "Cualquier persona natural o jurídica que, de forma individual o conjunta con otras, busque aplicar tecnología en la actividad aseguradora a través de proyectos que tengan potencial utilidad o valor agregado en el mercado asegurador.",
         date: "2",
     },
     {
         id: 3,
         title: "¿A partir de qué momento puedo enviar mi proyecto?",
         subtitle: "--------",
-        description: "La Superintendencia de la Actividad Aseguradora emitirá un aviso público donde notificará el lapso para que los participantes presenten los proyectos tecnológicos que pretendan ser sometidos al ambiente de prueba Sudeaseg. Las solicitudes de acceso se presentarán a tráves de la página web de esta Superintendencia de la Actividad Aseguradora, www.sudeaseg.gob.ve, en la sección Sandbox Regulatorio.",
+        description: "La Superintendencia de la Actividad Aseguradora emitirá un aviso público donde notificará cual es el lapso para que los participantes presenten sus solicitudes de acceso al Ambiente de Prueba Sudeaseg. <br> <br> Las solicitudes de acceso se presentarán a través de la página web de esta Superintendencia de la Actividad Aseguradora, <a class='text-[#ffff] hover:text-[#2098cc]' href='http://www.sudeaseg.gob.ve'>www.sudeaseg.gob.ve</a>, en la sección <span class='font-bold text-[#ffff]'> SandBox Regulatorio.</span>",
         date: "3",
     },
     {
         id: 4,
-        title: "Si un proyecto no es admitido ¿Qué tiempo hay que esperar para introducir una nueva solicitud?",
+        title: "Si un proyecto no es admitido ¿qué tiempo hay que esperar para introducir una nueva solicitud?",
         subtitle: "--------",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!",
+        description: "El participante podrá introducir una nueva solicitud después de haber transcurrido dos (2) meses, contados a partir de la fecha del pronunciamiento de esta Superintendencia. Esto con la finalidad de que cada aspirante realice la debida diligencia en relación a lo solicitado y mejore su propuesta de valor o presente una nueva solicitud completa.",
         date: "4",
     },
     {
         id: 5,
         title: "¿Qué sucede después de terminada la fase de prueba?",
         subtitle: "--------",
-        description: "La Superintendencia de la Actividad Aseguradora se pronunciará mediante Acto Administrativo motivado, si el proyecto tecnológico fue aprobado o desestimado.",
+        description: "La Superintendencia de la Actividad Aseguradora se pronunciará mediante Acto Administrativo motivado, si el proyecto fue aprobado o desestimado.",
         date: "5",
     },
     {
         id: 6,
         title: "¿Cuáles son las fases del ambiente de pruebas?",
         subtitle: "--------",
-        description: "Ir a la pagina de Fases",
+        description: "<a class='text-[#ffff] hover:text-[#2098cc]' href='/fases'>Ir a la pagina de Fases</a>",
         date: "6",
     },
 ]
