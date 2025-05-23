@@ -17,14 +17,14 @@ const Header = () => {
 
                     </Link>
                     <div className="flex items-center justify-center gap-7">
-                        {socialNetworksimg.map(({ imgSrc, src, id, alt }) => (
+                        {socialNetworksimg.map(({ imgSrc, src, id }) => (
                             <Link
                                 key={id}
                                 href={src}
                                 target="_blank"
                                 className="transition-all duration-300 hover:text-secondary"
                             >
-                                <img src={imgSrc} alt={alt || "social logo"} className="h-11 w-11 object-contain"/>
+                                <img src={imgSrc} alt={"social logo"} className="h-11 w-11 object-contain"/>
                             </Link>
                         ))}
                     </div>

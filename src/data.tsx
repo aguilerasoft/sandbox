@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, BookOpenCheck } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Crop, Pencil, Computer, Book, Rocket, Speech, BookOpenCheck } from "lucide-react";
 
 
 
@@ -6,26 +6,26 @@ export const socialNetworksimg = [
   {
     id: 1,
     src: "https://twitter.com/yourprofile",
-    imgSrc: "/Facebook.png",
-    alt: "Facebook"
+    imgSrc: "/logo_facebook.png",
+    name: "Facebook",
   },
   {
     id: 2,
     src: "https://facebook.com/yourprofile",
-    imgSrc: "/Youtube.png",
-    alt: "Youtube"
+    imgSrc: "/logo_youtube.png",
+    name: "Youtube",
   },
   {
     id: 3,
     src: "https://facebook.com/yourprofile",
-    imgSrc: "/Instagram.png",
-    alt: "Instagram"
+    imgSrc: "/logo_instagram.png",
+    name: "Instagram",
   },
   {
     id: 4,
     src: "https://facebook.com/yourprofile",
-    imgSrc: "/Tiktok.png",
-    alt: "Tiktok"
+    imgSrc: "/logo_tiktok.png",
+    name: "Tiktok",
   },
   // more items...
 ];
