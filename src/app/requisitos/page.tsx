@@ -85,11 +85,18 @@ export default function Requisitos() {
     <main className="relative">
       <TransitionPage />
       <ContainerPage>
+
+        <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl">
+                    
+                    <span className="font-bold text-secondary">
+                       Requisitos
+                    </span>
+                </h1>
         <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
           <CoverParticles />
           
           {/* Contenedor principal centrado */}
-          <div className="absolute inset-0 flex items-center justify-center z-10 px-4 py-20 md:py-0">
+          <div className="absolute inset-0  flex items-center justify-center z-10 px-4 py-20 md:py-0 md:mt-50 ">
             {/* Contenedor para el círculo y las secciones */}
             <div className="relative w-full h-full max-w-5xl max-h-5xl">
               {/* Círculo con imagen - centrado */}

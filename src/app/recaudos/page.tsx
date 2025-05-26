@@ -12,7 +12,12 @@ const Recaudos = () => {
       <TransitionPage />
       <ContainerPage>
 
-
+      <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl">
+                    
+                    <span className="font-bold text-secondary">
+                       Recaudos
+                    </span>
+                </h1>
 
         <RecaudosComponente
           image="/Icono-Circulo-1.png"
@@ -44,11 +49,15 @@ const Recaudos = () => {
             • Experiencia del que propone el proyecto (opcional). <br />
             "
           modalContent="
-                    
+                    • Título del proyecto.<br /> <br />
+                    • Objetivo y alcance del proyecto.<br /> <br />
+                    • Breve descripción del proyecto.<br /> <br />
+                    • Evolución esperada del proyecto a mediano plazo (opcional). <br /> <br />
+                    • Experiencia del que propone el proyecto (opcional). <br /> <br />
                     • Si ha realizado pruebas, indique cuáles, el periodo de ejecución y los resultados obtenidos. <br /> <br />
                     • Indique el plan de pruebas que pretende aplicar. <br /> <br />
                     • Mención de las tecnologías utilizadas (Inteligencia Artificial (Artificial Intelligence), Cadena de bloques (Blockchain), Biometría, Computación en la nube (Cloud Computing), Internet de las cosas (Internet of Things) / (Edge Computing), otras (indique cuales)). <br /> <br />
-                    • Descripción de las características de la infraestructura tecnológica previstas en el proyecto. Adicionalmente debe incluir los aspectos técnicos de implementación, de conformidad al Anexo de este documento. <br /> <br />
+                    • Descripción de las características de la infraestructura tecnológica previstas en el proyecto. Adicionalmente debe incluir los aspectos técnicos de implementación, de conformidad al siguiente <a class='text-[#2098cc] hover:text-[#2098cd]' href='#.pdf'>Anexo.</a> <br /> <br />
                     • Diagrama de red, flujo del sistema de aplicación, diagrama de base de datos, metodología utilizada en el desarrollo, diagrama de procesos, manual de usuario técnico y manual de usuario final. <br /> <br />
                     • Mecanismos de seguridad y protección de datos. <br /> <br />
                     • Beneficio para la actividad aseguradora. <br /> <br />

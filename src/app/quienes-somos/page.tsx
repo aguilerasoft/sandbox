@@ -12,7 +12,13 @@ export default function Home() {
         <CoverParticles />
         <TransitionPage />
         <ContainerPage> {/* Añadido padding vertical */}
-          <div className="flex flex-col gap-20 relative"> {/* Espacio uniforme entre secciones */}
+           <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl">
+                    
+                    <span className="font-bold text-secondary">
+                       Quiénes somos
+                    </span>
+                </h1>
+          <div className="flex flex-col gap-20 relative mt-10"> {/* Espacio uniforme entre secciones */}
             
             {/* Primera sección */}
             <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
