@@ -57,7 +57,7 @@ const Recaudos = () => {
                     • Si ha realizado pruebas, indique cuáles, el periodo de ejecución y los resultados obtenidos. <br /> <br />
                     • Indique el plan de pruebas que pretende aplicar. <br /> <br />
                     • Mención de las tecnologías utilizadas (Inteligencia Artificial (Artificial Intelligence), Cadena de bloques (Blockchain), Biometría, Computación en la nube (Cloud Computing), Internet de las cosas (Internet of Things) / (Edge Computing), otras (indique cuales)). <br /> <br />
-                    • Descripción de las características de la infraestructura tecnológica previstas en el proyecto. Adicionalmente debe incluir los aspectos técnicos de implementación, de conformidad al siguiente <a class='text-[#2098cc] hover:text-[#2098cd]' href='/pdf/Fase_2_Evaluación_de_la_Solicitud.pdf'>Anexo.</a> <br /> <br />
+                    • Descripción de las características de la infraestructura tecnológica previstas en el proyecto. Adicionalmente debe incluir los aspectos técnicos de implementación, de conformidad al siguiente <a class='text-[#2098cc] hover:text-[#2098cd]' href='/pdf/Brochure Anexo Sandbox.pdf'>Anexo.</a> <br /> <br />
                     • Diagrama de red, flujo del sistema de aplicación, diagrama de base de datos, metodología utilizada en el desarrollo, diagrama de procesos, manual de usuario técnico y manual de usuario final. <br /> <br />
                     • Mecanismos de seguridad y protección de datos. <br /> <br />
                     • Beneficio para la actividad aseguradora. <br /> <br />
