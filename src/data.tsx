@@ -5,25 +5,25 @@ import { BookText, CodeSquare, HomeIcon, UserRound, Crop, Pencil, Computer, Book
 export const socialNetworksimg = [
   {
     id: 1,
-    src: "https://twitter.com/yourprofile",
+    src: "https://www.facebook.com/sudeaseg.sudeaseg.5?mibextid=ZbWKwL",
     imgSrc: "/logo_facebook.png",
     name: "Facebook",
   },
   {
     id: 2,
-    src: "https://facebook.com/yourprofile",
+    src: "https://www.youtube.com/@superintendenciadelaactivi4892",
     imgSrc: "/logo_youtube.png",
     name: "Youtube",
   },
   {
     id: 3,
-    src: "https://facebook.com/yourprofile",
+    src: "https://www.instagram.com/sudeasegoficial/",
     imgSrc: "/logo_instagram.png",
     name: "Instagram",
   },
   {
     id: 4,
-    src: "https://facebook.com/yourprofile",
+    src: "https://www.tiktok.com/@sudeaseg.oficial?_t=ZM-8sM5UVmCqMY&_r=1",
     imgSrc: "/logo_tiktok.png",
     name: "Tiktok",
   },
