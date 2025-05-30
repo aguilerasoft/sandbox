@@ -6,14 +6,14 @@ const Introduction = () => {
         <div className="z-20 w-full bg-darkBg/60 relative overflow-hidden">
             {/* Efecto de fondo decorativo */}
             <div className="absolute -right-20 -top-20 w-96 h-96 bg-secondary/10 rounded-full filter blur-3xl opacity-30"></div>
-            
+
             <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 max-w-7xl mx-auto">
                 {/* Sección izquierda - Video de YouTube */}
                 <div className="order-2 md:order-1 mx-auto w-full max-w-[560px] relative">
                     <div className="relative w-full h-0 pb-[56.25%] rounded-xl overflow-hidden shadow-2xl border-4 border-white/20 hover:border-secondary/50 transition-all duration-300">
                         <iframe
                             className="absolute top-0 left-0 w-full h-full"
-                            src="https://www.youtube.com/embed/M1btmBDhSB8"
+                            src="https://www.youtube.com/embed/M1btmBDhSB8?autoplay=1&controls=0&mute=0&loop=1&playlist=M1btmBDhSB8"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -23,9 +23,9 @@ const Introduction = () => {
                 </div>
 
                 {/* Sección derecha - Contenido */}
-                <div className="flex flex-col justify-center order-1 md:order-2 md:pl-10 relative">
+                <div className="flex mt-20 flex-col justify-center order-1 md:order-2 md:pl-10 relative md:mt-0">
                     <h1 className="mb-5 text-3xl leading-tight text-center font-bold md:text-left md:text-5xl md:mb-8 relative z-10">
-                        <span className="font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
+                        <span className=" tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
                             SANDBOX
                         </span>, <br />
                         <TypeAnimation
@@ -48,14 +48,8 @@ const Introduction = () => {
                     </h1>
 
                     {/* GIF animado saludando que sale de la pantalla */}
-                    <div className="fixed right-0 bottom-10 md:bottom-20 w-48 h-48 md:w-64 md:h-64 z-20 hover:scale-105 transition-transform duration-300 transform -translate-x-4">
-    <img 
-        src="/tumblr_162b73ed7fa893e3987e6b31ad43576e_5ff9ff9e_500.gif" 
-        alt="Personaje animado saludando"
-        className="w-full h-full object-contain"
-    />
-</div>
                     
+
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:justify-start md:gap-6 relative z-10">
                         <a
                             href="/projects"
