@@ -24,7 +24,7 @@ const Fases = () => {
           title="1. Presentación de la solicitud"
           gradientFrom="#09141a"
           gradientTo="#2584C8"
-          content="es el periodo para la presentación de los proyectos tecnológicos, en el cual estarán definidos los requisitos y recaudos que debe presentar el interesado."
+          content="Es el periodo para la presentación de los proyectos tecnológicos, en el cual estarán definidos los requisitos y recaudos que debe presentar el interesado."
         />
 
          <FasesComponente
